@@ -1,0 +1,27 @@
+{
+    "name": "requireBuild",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "scripts": {
+        "postinstall": "node_modules/.bin/bower install"
+    },
+    "author": "vlriha",
+    "contributors": [
+    ],
+    "dependencies": {
+        "bower": "1.6.5",
+        "grunt": "0.4.5",
+        "grunt-contrib-requirejs": "0.4.4"
+    },
+    "devDependencies": {
+        "grunt-contrib-compress": "0.14.0",
+        "grunt-jsdoc": "1.0.0",
+        "jsdoc": "3.3.3"
+    }
+}
